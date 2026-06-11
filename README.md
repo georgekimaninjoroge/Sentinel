@@ -3,6 +3,8 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/npm/v/sentinel-jwt?style=flat-square&color=EF9F27&labelColor=1a1814" alt="npm version"/>
+  <img src="https://img.shields.io/npm/dm/sentinel-jwt?style=flat-square&color=EF9F27&labelColor=1a1814" alt="npm downloads"/>
   <img src="https://img.shields.io/badge/license-MIT-EF9F27?style=flat-square&labelColor=1a1814" alt="MIT license"/>
   <img src="https://img.shields.io/badge/zero_dependencies-✓-EF9F27?style=flat-square&labelColor=1a1814" alt="zero dependencies"/>
   <img src="https://img.shields.io/badge/Web_Crypto_API-native-EF9F27?style=flat-square&labelColor=1a1814" alt="Web Crypto API"/>
@@ -12,6 +14,22 @@
 <p align="center">
   Zero-dependency browser JWT security. Vanilla JS + Web Crypto API.
 </p>
+
+---
+
+## Install
+
+```bash
+npm install sentinel-jwt
+```
+
+Or import directly (no bundler):
+
+```html
+<script type="module">
+  import Sentinel from "https://cdn.jsdelivr.net/npm/sentinel-jwt/sentinel.js";
+</script>
+```
 
 ---
 
@@ -44,7 +62,7 @@ sentinel/
 ## Quick start
 
 ```js
-import Sentinel from "./sentinel/sentinel.js";
+import Sentinel from "sentinel-jwt";
 
 // 1. Boot — register Service Worker
 await Sentinel.init();
