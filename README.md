@@ -49,7 +49,7 @@ Sentinel protects JWTs in the browser without any npm packages. It fingerprints 
 ## File map
 
 ```
-sentinel/
+Sentinel/
   fingerprint.js     device fingerprint (SHA-256 of browser signals)
   crypto-store.js    AES-256-GCM IndexedDB storage
   tamper.js          HMAC-SHA256 sign + verify
