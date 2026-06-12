@@ -35,7 +35,7 @@ Or import directly (no bundler):
 
 ## What it does
 
-Sentinel protects JWTs in the browser without any npm packages. It fingerprints the device, encrypts the token with AES-256-GCM using a key derived from that fingerprint, signs it with HMAC-SHA256, and queues token refresh via Service Worker — even offline.
+Sentinel protects JWTs in the browser without any npm packages. It fingerprints the device, encrypts the token with AES-256-GCM using a key derived from that fingerprint, signs it with HMAC-SHA256, and queues token refresh via Service Worker even if offline.
 
 | Feature | How |
 |---|---|
