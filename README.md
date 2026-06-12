@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="Sentinel" width="100%"/>
+  <img src="https://raw.githubusercontent.com/georgekimaninjoroge/Sentinel/main/banner.png" alt="Sentinel" width="100%"/>
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ Sentinel protects JWTs in the browser without any npm packages. It fingerprints 
 ## File map
 
 ```
-Sentinel/
+sentinel/
   fingerprint.js     device fingerprint (SHA-256 of browser signals)
   crypto-store.js    AES-256-GCM IndexedDB storage
   tamper.js          HMAC-SHA256 sign + verify
