@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="Sentinel" width="100%"/>
+  <img src="https://raw.githubusercontent.com/georgekimaninjoroge/Sentinel/main/assets/banner.png" alt="Sentinel" width="100%"/>
 </p>
 
 <p align="center">
