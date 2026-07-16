@@ -10,7 +10,6 @@ const Sentinel = (() => {
   let _swRegistration = null;
 
 
-
     async function init(swPath = SW_PATH) {
     if (!("serviceWorker" in navigator)) {
       console.warn("[Sentinel] SW not supported — offline refresh unavailable");
